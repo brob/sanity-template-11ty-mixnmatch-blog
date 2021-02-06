@@ -1,0 +1,33 @@
+{
+  "name": "11tymixnmatch",
+  "private": true,
+  "version": "1.0.0",
+  "description": "This repository is a companion to a blog post where I cover starting with an 11ty markdown blog and connecting to a headless content platform (Sanity.io) and mixing those two data streams into one collection",
+  "main": "package.json",
+  "author": "Bryan Robinson <bryanlrobinson@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.3.3",
+    "@sanity/components": "^2.2.6",
+    "@sanity/core": "^2.3.3",
+    "@sanity/default-layout": "^2.3.3",
+    "@sanity/default-login": "^2.2.6",
+    "@sanity/desk-tool": "^2.3.3",
+    "@sanity/vision": "^2.2.6",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brob/11ty-mixnmatch.git"
+  }
+}

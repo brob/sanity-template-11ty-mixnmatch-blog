@@ -1,0 +1,11 @@
+---
+title: Homepage of my blog
+layout: 'base.html'
+---
+
+<h2>Blog posts</h2>
+
+{% for post in collections.posts %}
+    <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+    <p>{{ post.data.description }}</p>
+{% endfor %}
